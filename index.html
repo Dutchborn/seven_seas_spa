@@ -10,14 +10,26 @@
       integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC"
       crossorigin="anonymous"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/2f9620b7f0.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="assets/images/AIIAB_4_2_1_1.png" alt="Logo" width="30px" height="30px"/>
+          <img
+            src="assets/images/AIIAB_4_2_1_1.png"
+            alt="Logo"
+            width="30px"
+            height="30px"
+          />
           Seven Seas Spa
         </a>
         <button
@@ -51,13 +63,227 @@
     </nav>
 
     <div class="hero-section text-center">
-      <div class="container-fluid">
+      <div class="container">
         <h1 class="display-4">Welcome to Seven Seas Spa</h1>
-        <p class="lead">We are dedicated to improving your overall wellbeing.</p>
+        <p class="lead">
+          We are dedicated to improving your overall wellbeing.
+        </p>
         <a href="#contact" class="btn btn-light btn-lg">Contact Us</a>
       </div>
     </div>
-    
+
+    <section class="our-services my-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Our Services</h2>
+        <div class="row g-4">
+          <!-- Yoga Classes Card -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="assets/images/yoga.jpg"
+                class="card-img-top"
+                alt="Yoga Classes"
+                style="max-height: 200px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Yoga Classes</h5>
+                <p class="card-text">
+                  Enhance your flexibility and inner peace with our yoga
+                  sessions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Nutritional Advice Card -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="assets/images/nutrition.jpg"
+                class="card-img-top"
+                alt="Nutritional Advice"
+                style="max-height: 200px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Nutritional Advice</h5>
+                <p class="card-text">
+                  Get personalized nutritional guidance for a healthier
+                  lifestyle.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Mental Health Support Card -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="assets/images/mental-health.jpg"
+                class="card-img-top"
+                alt="Mental Health Support"
+                style="max-height: 200px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Mental Health Support</h5>
+                <p class="card-text">
+                  Access professional support to improve your mental wellbeing.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Wellness Programs Card -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="assets/images/wellness.jpg"
+                class="card-img-top"
+                alt="Wellness Programs"
+                style="max-height: 200px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Wellness Programs</h5>
+                <p class="card-text">
+                  Participate in holistic programs designed for your overall
+                  wellness.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wellness Tips Section -->
+    <!-- Wellness Tips Section -->
+    <section class="wellness-tips my-5">
+      <div class="container">
+        <h2 class="text-center mb-3">Wellness Tips</h2>
+        <p class="text-center text-muted">
+          Simple steps to improve your overall health and wellbeing:
+        </p>
+        <ul class="list-unstyled mt-4">
+          <li class="mb-3">
+            <strong>Stay Hydrated:</strong> Drink at least 8 glasses of water
+            daily to keep your body hydrated.
+          </li>
+          <li class="mb-3">
+            <strong>Get Enough Sleep:</strong> Aim for 7-8 hours of quality
+            sleep each night to rejuvenate your body.
+          </li>
+          <li class="mb-3">
+            <strong>Exercise Regularly:</strong> Incorporate at least 30 minutes
+            of physical activity into your daily routine.
+          </li>
+          <li class="mb-3">
+            <strong>Eat Balanced Meals:</strong> Include a variety of fruits,
+            vegetables, and proteins in your diet.
+          </li>
+          <li class="mb-3">
+            <strong>Practice Mindfulness:</strong> Take time to meditate or
+            practice deep breathing to reduce stress.
+          </li>
+          <li class="mb-3">
+            <strong>Stay Connected:</strong> Maintain strong relationships with
+            family and friends for emotional support.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials my-5">
+      <div class="container text-center">
+        <h2 class="mb-4">What Our Clients Say</h2>
+        <div
+          id="testimonialCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="assets/images/client1.jpg"
+                class="rounded-circle mb-3"
+                alt="Client 1"
+                width="80"
+                height="80"
+              />
+              <p>
+                "The yoga classes have transformed my life. Highly recommend!"
+              </p>
+              <h5>- Sarah J.</h5>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/images/client2.jpg"
+                class="rounded-circle mb-3"
+                alt="Client 2"
+                width="80"
+                height="80"
+              />
+              <p>
+                "The wellness programs are amazing. I feel so much healthier!"
+              </p>
+              <h5>- John D.</h5>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/images/client3.jpg"
+                class="rounded-circle mb-3"
+                alt="Client 3"
+                width="80"
+                height="80"
+              />
+              <p>"The mental health support team is incredible. Thank you!"</p>
+              <h5>- Emily R.</h5>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="d-flex justify-content-between align-items-center p-3"
+      style="background-color: #6f4e37; color: #ffebda"
+    >
+      <div>&copy; 2025 Seven Seas Spa</div>
+      <div>
+        <a
+          href="https://facebook.com"
+          target="_blank"
+          class="me-3"
+          style="color: #ffebda"
+          ><i class="fa-brands fa-facebook"></i></i
+        ></a>
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          class="me-3"
+          style="color: #ffebda"
+          ><i class="fa-brands fa-instagram"></i></i
+        ></a>
+        <a href="https://twitter.com" target="_blank" style="color: #ffebda"
+          ><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu"
