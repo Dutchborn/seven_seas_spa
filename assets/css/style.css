@@ -52,3 +52,36 @@ body {
   border-color: #3b2f2f;
 }
 
+/* Card Section */
+.card {
+  height: 100%;
+}
+
+.row > div {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+/* Testimonial Section Styling */
+.testimonials .carousel-item img {
+  width: 100px; /* Increase the size of the circular images */
+  height: 100px;
+}
+
+.testimonials .carousel-item p {
+  font-size: 1.25rem; /* Increase the font size of the testimonial text */
+  line-height: 1.6; /* Add better spacing between lines */
+}
+
+.testimonials .carousel-item h5 {
+  font-size: 1.1rem; /* Slightly increase the font size of the client name */
+  font-weight: bold;
+}
+
+
