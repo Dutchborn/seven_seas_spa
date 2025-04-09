@@ -11,6 +11,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Handlee', cursive;
 }
 
+/* Fix for content overflow in containers */
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
 /* Style the footer */
 .footer {
   margin-top: auto;
@@ -35,6 +41,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-nav .nav-link.active {
   font-weight: bold;
+}
+
+.navbar-collapse {
+  border: none !important; /* Remove any border around the dropdown */
+  box-shadow: none !important; /* Remove any shadow */
 }
 
 /* hero section style */
@@ -99,4 +110,43 @@ h1, h2, h3, h4, h5, h6 {
 .testimonials .carousel-item h5 {
   font-size: 1.1rem; /* Slightly increase the font size of the client name */
   font-weight: bold;
+}
+
+/* Team Section */
+
+img .team-member {
+  width: 10px; /* Increase the size of the circular images */
+  height: 10px;
+}
+
+.img-fluid {
+  border-radius: 50%;
+  width: 100px; /* Increase the size of the circular images */
+  height: auto;
+}
+
+/* Media query for screens 992px and below */
+@media (max-width: 992px) {
+  .our-team .row > div {
+    text-align: center; /* Center-align content for smaller screens */
+    margin-bottom: 20px; /* Add spacing between stacked columns */
+    width: 100%; /* Ensure columns take up the full width */
+  }
+
+  .our-team .row {
+    display: flex;
+    flex-direction: column; /* Stack columns vertically */
+    align-items: center; /* Center-align the stacked columns */
+  }
+
+  .img-fluid {
+    max-width: 150px; /* Ensure images fit within their containers */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .text-muted {
+    font-size: 0.9rem; /* Adjust font size for better readability */
+    margin: 0 auto; /* Center-align text within the container */
+    max-width: 90%; /* Ensure text doesn't overflow the container */
+  }
 }
