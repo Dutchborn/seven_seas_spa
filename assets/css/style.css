@@ -114,14 +114,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Team Section */
 
-img .team-member {
-  width: 10px; /* Increase the size of the circular images */
-  height: 10px;
-}
+
 
 .img-fluid {
   border-radius: 50%;
-  width: 100px; /* Increase the size of the circular images */
+  width: fit-content; /* Increase the size of the circular images */
   height: auto;
 }
 
@@ -140,7 +137,7 @@ img .team-member {
   }
 
   .img-fluid {
-    max-width: 150px; /* Ensure images fit within their containers */
+    max-width: 696px; /* Ensure images fit within their containers */
     height: auto; /* Maintain aspect ratio */
   }
 
